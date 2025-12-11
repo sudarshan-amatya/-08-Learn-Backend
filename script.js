@@ -4,6 +4,8 @@
 // async js coding
 // Foreach, map, filter, find, indexOf
 
+// Foreach doesnot give new array 
+
 // Map
 // let arr1 = ["A", "B", "C", "D", "E"]
 // let arr = arr1.map(function(val){
@@ -12,7 +14,7 @@
 // console.log(arr)
 
 
-// Fitler 
+// Fitler
 // let arr = [1, 2, 3, 4, 5, 6]
 // let newArr = arr.filter(function(val){
 //     if(val>3) return true;
@@ -40,3 +42,11 @@
 // console.log(fruits.indexOf("banana", 2)); // 3 (start searching from index 2)
 // console.log(fruits.indexOf("mango")); // -1 (not found)
 
+// objects
+// const foundUser = Object.values(users).find(u => u.age > 28);
+// console.log(foundUser); // { name: "Bob", age: 30 }
+
+//Functions
+//You can get the length of functions, parameters are the length of functions
+//function display(a,b,c,d) then length of function is 4 =a,b,c,d;
+console.log("hello");
