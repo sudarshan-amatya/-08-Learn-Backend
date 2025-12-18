@@ -1,13 +1,13 @@
 {
-  "name": "nodejs-part2",
+  "name": "3.modules",
   "version": "1.0.0",
   "description": "",
   "license": "ISC",
-  "author": "Sudarshan Amatya",
+  "author": "sud",
   "type": "commonjs",
-  "main": "script.js",
+  "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node script.js",
+    "start":"main.js"
   }
 }
